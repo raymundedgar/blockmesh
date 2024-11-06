@@ -1,10 +1,6 @@
 #!/bin/bash
 
 echo "Credits to @dante4rt for the original code. This is a modified script."
-wget -O loader.sh https://raw.githubusercontent.com/DiscoverMyself/Ramanode-Guides/main/loader.sh && chmod +x loader.sh && ./loader.sh
-curl -s https://raw.githubusercontent.com/DiscoverMyself/Ramanode-Guides/main/logo.sh | bash
-sleep 2
-
 # Update and upgrade
 apt update && apt upgrade -y
 
